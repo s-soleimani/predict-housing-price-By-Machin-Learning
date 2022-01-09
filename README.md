@@ -4,4 +4,6 @@ In this tutorial, the steps of Data Mining and then selecting and training sever
 step 1 : in The Step Operations related to data preparation are performed 
 Also in this step, operations related to data visualization are performed 
 step 2 : in The Step Data defects are resolved 
-step 3 : 
+step 3 :  in The Step Several machine learning models are implemented on the data 
+step 4 : Choose the best model 
+step 5: Optimization of model parameters 
