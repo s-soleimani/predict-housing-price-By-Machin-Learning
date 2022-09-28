@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#5_2
 grid_search = GridSearchCV(forest_reg , param_grid,cv = 5 , scoring = 'neg_mean_squared_error')
 grid_search.fit(final , df_label)
 print("Best Parameters:" , grid_search.best_params_)
