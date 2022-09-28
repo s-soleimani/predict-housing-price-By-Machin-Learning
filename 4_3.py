@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#4_3
 from sklearn.ensemble import RandomForestRegressor
 forest_reg = RandomForestRegressor()
 forest_reg.fit(final,df_label)
