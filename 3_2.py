@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#3_2
 from sklearn.tree import DecisionTreeRegressor
 tree_reg = DecisionTreeRegressor()
 tree_reg.fit(final,df_label)
