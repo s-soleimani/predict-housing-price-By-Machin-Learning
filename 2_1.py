@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
-
-
-#2_1
 data["total_rooms_per_households"] = data["total_rooms"]/data["households"]
 data["total_bedrooms_per_total_rooms"] = data["total_bedrooms"] / data["total_rooms"]
 data["population_per_households"] = data["population"]/data["households"]
