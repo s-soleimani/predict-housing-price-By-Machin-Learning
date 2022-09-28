@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#3_1
 from sklearn.linear_model import LinearRegression
 Lin_reg = LinearRegression()
 Lin_reg.fit(final , df_label)
