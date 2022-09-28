@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#2_2
 rooms_ix , bedroom_ix , population_ix , houseold_ix = 3,4,5,6
 class CombinedAttributesAdder(BaseEstimator,TransformerMixin):
        def fit(self, X , y = None):
